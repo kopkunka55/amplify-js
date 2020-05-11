@@ -12,7 +12,7 @@
  */
 // @ts-ignore
 import { DocumentNode } from 'graphql/language/ast';
-
+export { Observable } from 'zen-observable-ts';
 export interface GraphQLOptions {
 	query: string | DocumentNode;
 	variables?: object;
